@@ -36,12 +36,14 @@ MYSQL 时间函数大全
 
 
 - __MONTH(date)__  
+
 >返回date的月份，范围1到12。  
 >
 	mysql> select MONTH('2007-10-31');  
 	-> 10
 
 - __DAYNAME(date)__  
+
 >返回date的星期名字。  
 >
 	mysql> select DAYNAME("2007-10-31");  
@@ -55,12 +57,14 @@ MYSQL 时间函数大全
 	-> 'October' 
 
 - __QUARTER(date)__ 
+
 >返回date一年中的季度，范围1到4。  
 >
 	mysql> select QUARTER('2007-10-31');  
 	-> 4 
 
-- __WEEK(date)__  
+- __WEEK(date)__
+ 
 >  
 	WEEK(date,first)  
 >对于星期天是一周的第一天的地方，有一个单个参数，返回date的周数，范围在0到52。2个参数形式WEEK()允许你指定星期是否开始于星期天或星期一。如果第二个参数是0，星期从星期天开始，如果第二个参数是1，从星期一开始。
@@ -73,44 +77,51 @@ MYSQL 时间函数大全
 	-> 8 
 
 - __YEAR(date)__
+
 >返回date的年份，范围在1000到9999。  
 >
 	mysql> select YEAR('98-02-03');  
 	-> 1998 
 
 - __HOUR(time)__
+
 >返回time的小时，范围是0到23。  
 >	
 	mysql> select HOUR('10:05:03');  
 	-> 10 
 
 - __MINUTE(time)__
+
 >返回time的分钟，范围是0到59。  
 >
 	mysql> select MINUTE('98-02-03 10:05:03');  
 	-> 5 
 
 - __SECOND(time)__ 
+
 >回来time的秒数，范围是0到59。  
 >
 	mysql> select SECOND('10:05:03');  
 	-> 3 
 
 - __PERIOD\_ADD(P,N)__
+
 >增加N个月到阶段P（以格式YYMM或YYYYMM)。以格式YYYYMM返回值。注意阶段参数P不是日期值。  
 >
 	mysql> select PERIOD_ADD(9801,2);  
 	-> 199803 
 
 - __PERIOD\_DIFF(P1,P2)__
+
 >返回在时期P1和P2之间月数，P1和P2应该以格式YYMM或YYYYMM。注意，时期参数P1和P2不是日期值。  
 >
 	mysql> select PERIOD_DIFF(9802,199703);  
 	-> 11 
 
-- __DATE\_ADD(date,INTERVAL expr type)__ 
-- __DATE\_SUB(date,INTERVAL expr type)__  
+- __DATE\_ADD(date,INTERVAL expr type)__
+- __DATE\_SUB(date,INTERVAL expr type)__
 - __ADDDATE(date,INTERVAL expr type)__
+
 >
 	SUBDATE(date,INTERVAL expr type)  
 >这些功能执行日期运算。对于 `MySQL 3.22`，他们是新的。`ADDDATE()`和`SUBDATE()`是`DATE_ADD()`和`DATE_SUB()`的同义词.  
@@ -172,6 +183,7 @@ MYSQL 时间函数大全
 >注意，从前面的例子中词INTERVAL和type关键词不是区分大小写的。 
 
 - __TO\_DAYS(date)__
+
 >给出一个日期date，返回一个天数(从0年的天数)。  
 >
 	mysql> select TO_DAYS(950501);  
@@ -180,15 +192,18 @@ MYSQL 时间函数大全
 	-> 729669 
 
 - __TO\_DAYS()__
+
 >不打算用于使用格列高里历(1582)出现前的值。 
 
 - __FROM\_DAYS(N)__
+
 >给出一个天数N，返回一个DATE值。
 >  
 	mysql> select FROM_DAYS(729669);  
 	-> '1997-10-07' 
 
 - __DATE\_FORMAT(date,format)__
+
 >根据format字符串格式化date值。下列修饰符可以被用在format字符串中：
 >
 	%M 月名字(January……December)  
@@ -236,8 +251,9 @@ MYSQL 时间函数大全
 - __TIME\_FORMAT(time,format)__
 >这象上面的DATE_FORMAT()函数一样使用，但是format字符串只能包含处理小时、分钟和秒的那些格式修饰符。其他修饰符产生一个NULL值或0。 
 
-- __CURDATE()__  
+- __CURDATE()__
 - __CURRENT\_DATE__
+
 >以`'YYYY-MM-DD'`或`YYYYMMDD`格式返回今天日期值，取决于函数是在一个字符串还是数字上下文被使用。 
 > 
 	mysql> select CURDATE();  
@@ -246,7 +262,8 @@ MYSQL 时间函数大全
 	-> 19971215 
 
 - __CURTIME()__  
-- __CURRENT\_TIME__  
+- __CURRENT\_TIME__
+
 >以`'HH:MM:SS'`或`HHMMSS`格式返回当前时间值，取决于函数是在一个字符串还是在数字的上下文被使用。  
 >
 	mysql> select CURTIME();  
@@ -254,9 +271,10 @@ MYSQL 时间函数大全
 	mysql> select CURTIME() + 0;  
 	-> 235026 
 
-- __NOW()__    
+- __NOW()__
 - __SYSDATE()__
 - __CURRENT\_TIMESTAMP__
+
 >以`'YYYY-MM-DD HH:MM:SS'`或`YYYYMMDDHHMMSS`格式返回当前的日期和时间，取决于函数是在一个字符串还是在数字的上下文被使用.
 >
 	mysql> select NOW();  
@@ -264,8 +282,9 @@ MYSQL 时间函数大全
 	mysql> select NOW() + 0;  
 	-> 19971215235026 
 
-- __UNIX\_TIMESTAMP()__  
+- __UNIX\_TIMESTAMP()__
 - __UNIX\_TIMESTAMP(date)__
+
 >如果没有参数调用，返回一个`Unix`时间戳记(从`1970-01-01 00:00:00'GMT`开始的秒数)。如果`UNIX_TIMESTAMP()`用一个`date`参数被调用，它返回从`'1970-01-01 00:00:00' GMT`开始的秒数值。`date`可以是一个`DATE`字符串、一个`DATETIME`字符串、一个`TIMESTAMP`或以`YYMMDD`或`YYYYMMDD`格式的本地时间的一个数字。  
 >
 	mysql> select UNIX_TIMESTAMP();  
@@ -284,6 +303,7 @@ MYSQL 时间函数大全
 	-> 19971004222300 
 
 - __FROM\_UNIXTIME(unix\_timestamp,format)__
+
 >返回表示 Unix 时间标记的一个字符串，根据`format`字符串格式化。`format`可以包含与`DATE_FORMAT()`函数列出的条目同样的修饰符。
 >  
 	mysql> select FROM_UNIXTIME(UNIX_TIMESTAMP(),  
@@ -291,6 +311,7 @@ MYSQL 时间函数大全
 	-> '1997 23rd December 03:43:30 x' 
 
 - __SEC\_TO\_TIME(seconds)__
+
 >返回`seconds`参数，变换成小时、分钟和秒，值以`'HH:MM:SS'`或`HHMMSS`格式化，取决于函数是在一个字符串还是在数字上下文中被使用。  
 >
 	mysql> select SEC_TO_TIME(2378);  
@@ -299,6 +320,7 @@ MYSQL 时间函数大全
 	-> 3938 
 
 - __TIME\_TO\_SEC(time)__
+
 >返回time参数，转换成秒。  
 >
 	mysql> select TIME_TO_SEC('22:23:00');  
