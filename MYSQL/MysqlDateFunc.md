@@ -1,4 +1,4 @@
-MYSQL 时间函数大全
+TIME_FORMATMYSQL 时间函数大全
 ---
 
 
@@ -249,6 +249,7 @@ MYSQL 时间函数大全
 >MySQL3.23中，在格式修饰符字符前需要%。在MySQL更早的版本中，%是可选的。 
 
 - __TIME\_FORMAT(time,format)__
+
 >这象上面的DATE_FORMAT()函数一样使用，但是format字符串只能包含处理小时、分钟和秒的那些格式修饰符。其他修饰符产生一个NULL值或0。 
 
 - __CURDATE()__
