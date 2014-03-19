@@ -6,7 +6,7 @@
 3. [Other](#OTHER)
 
 
-### [PHP文章](id:PHP)
+### <a name="PHP">PHP手记</a>
 1. [检测浏览器语言](https://github.com/zhukejin1223/blogs/blob/master/PHP/Detect-browser-language.md)
 2. [多维数组排序](https://github.com/zhukejin1223/blogs/blob/master/PHP/Detect-browser-language.md#%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F)
 3. [过滤用户输入](https://github.com/zhukejin1223/blogs/blob/master/PHP/Fitering.md)
@@ -19,11 +19,11 @@
 10. [每天进步一点点](https://github.com/zhukejin1223/blogs/blob/master/PHP/go-on.md)
 
 
-### [前端文章](id:JAVASCRIPT)
+### <a name="JAVASCRIPT">Javascript手记</a>
 1. [登陆框抖动](https://github.com/zhukejin1223/blogs/blob/master/Web-De/Div-Shake.md)
 2. [打印指定DIV](https://github.com/zhukejin1223/blogs/blob/master/Web-De/Print-DIV.md)
 3. [Javascript判断浏览器及系统](https://github.com/zhukejin1223/blogs/blob/master/Web-De/decide-sys-lan.md)
 
 
-### [其他手记](id:OTHER)
+### <a name="OTHER">其他手记</a>
 1. [魔兽世界一部分LUA AIP](https://github.com/zhukejin1223/blogs/blob/master/LUA/lua-wow-api.md)
