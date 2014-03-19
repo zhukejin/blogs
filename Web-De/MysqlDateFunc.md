@@ -3,6 +3,7 @@ MYSQL 时间函数大全
 
 
 - __DAYOFWEEK(date)__
+
 >返回日期date的星期索引(1=星期天，2=星期一, ……7=星期六)。这些索引值对应于ODBC标准。
 >
 	mysql> select DAYOFWEEK(2007-10-31);
