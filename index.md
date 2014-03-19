@@ -2,7 +2,7 @@
 
 
 >1. [PHP](#PHP)
-2. [Javascript](#JAVASCRIPT)
+2. [JAVASCRIPT](#JAVASCRIPT)
 4. [MYSQL](#MYSQL)
 5. [Other](#OTHER)
 
@@ -20,12 +20,12 @@
 
 
 ### <a name="JAVASCRIPT">Javascript手记</a>
-1. [登陆框抖动](https://github.com/zhukejin1223/blogs/blob/master/Web-De/Div-Shake.md)
-2. [打印指定DIV](https://github.com/zhukejin1223/blogs/blob/master/Web-De/Print-DIV.md)
-3. [Javascript判断浏览器及系统](https://github.com/zhukejin1223/blogs/blob/master/Web-De/decide-sys-lan.md)
+1. [登陆框抖动](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Div-Shake.md)
+2. [打印指定DIV](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Print-DIV.md)
+3. [Javascript判断浏览器及系统](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/decide-sys-lan.md)
 
 ### <a name="MYSQL">MYSQL手记</a>
-1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/Web-De/MysqlDateFunc.md)
+1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
 
 
 ### <a name="OTHER">其他手记</a>
