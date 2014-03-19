@@ -26,4 +26,14 @@
 
 
 ### <a name="OTHER">其他手记</a>
-1. [魔兽世界一部分LUA AIP](https://github.com/zhukejin1223/blogs/blob/master/LUA/lua-wow-api.md)
+1. [魔兽世界一部分LUA API](https://github.com/zhukejin1223/blogs/blob/master/LUA/lua-wow-api.md)
+
+
+<br>
+
+**欢迎查漏补缺，纠正错误**
+
+- Author：PrimoChu
+- Company:上海点客
+- Email:<zhukejin@msn.com>
+- Blog:<http://zhukejin.com>
