@@ -23,13 +23,17 @@ A：目前我们的加密方法是利用agent和secret以及参数计算出签�
 	 sort($arr); //字典排序的作用就是防止因为参数顺序不一致而导致下面拼接加密不同
 
 // 将Key和Value拼接
+
 	$str = "";
 	foreach ($arr as $k => $v) {
 	 $str = $str.$arr[$k].$array[$v];
 	}
 
 //通过sha1加密并转化为大写
-	$sign = strtoupper(sha1($str)); //计算出sign压入数组，释放secret
+
+	$sign = strtoupper(sha1($str));
+//计算出sign压入数组，释放secret
+
 	$array['sign'] = $sign;
 	unset($array['secret']);
 /* HTTP请求API */
