@@ -17,12 +17,19 @@
 8. [计算两个点的距离](https://github.com/zhukejin1223/blogs/blob/master/PHP/tools-position.md#%E8%AE%A1%E7%AE%97%E4%B8%A4%E4%B8%AA%E7%82%B9%E7%9A%84%E8%B7%9D%E7%A6%BB)
 9. [通过外部接口获取IP所在地理位置](https://github.com/zhukejin1223/blogs/blob/master/PHP/tools-position.md#%E9%80%9A%E8%BF%87ip%E8%8E%B7%E5%BE%97%E4%BD%8D%E7%BD%AE)
 10. [每天进步一点点](https://github.com/zhukejin1223/blogs/blob/master/PHP/go-on.md)
+11. [构建MVC-未完待续](https://github.com/zhukejin1223/blogs/blob/master/PHP/BuidMVC.md)
+12. [对外API安全加密问题](https://github.com/zhukejin1223/blogs/blob/master/PHP/api-secret.md)
+13. [PHP->JAVA DES 加密对接](https://github.com/zhukejin1223/blogs/blob/master/PHP/PHP-DES_encode.md)
+14. [php-curl-上传文件](https://github.com/zhukejin1223/blogs/blob/master/PHP/curl-file.md)
+15. [PHP截取中文字符串时候出现乱码问题](https://github.com/zhukejin1223/blogs/blob/master/PHP/mb_substr.md)
 
 
 ### <a name="JAVASCRIPT">Javascript手记</a>
 1. [登陆框抖动](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Div-Shake.md)
 2. [打印指定DIV](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Print-DIV.md)
 3. [Javascript判断浏览器及系统](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/decide-sys-lan.md)
+4. [关于 setTimeout() 方法的一些用法](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/setTimeout.md)
+5. [你或许不需要jquery](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/umightnotneedjquerymd.md)
 
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
