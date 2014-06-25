@@ -30,6 +30,8 @@ _此为日常工作博客记录与备份，详细博客地址：[http:zhukejin.c
 3. [Javascript判断浏览器及系统](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/decide-sys-lan.md)
 4. [关于 setTimeout() 方法的一些用法](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/setTimeout.md)
 5. [你或许不需要jquery](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/umightnotneedjquerymd.md)
+6. [Javascript事件冒泡和捕获优先级的实验与探讨](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Javascript-event.md)
+
 
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
