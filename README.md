@@ -1,5 +1,5 @@
 #目录
-_此为日常工作博客记录与备份，详细博客地址：[http:zhukejin.com](http:zhukejin.com)_
+_此为日常工作博客记录与备份，详细博客地址：[http:blog.zhukejin.com](http:blog.zhukejin.com)_
 
 >1. [PHP](#PHP)
 2. [JAVASCRIPT](#JAVASCRIPT)
@@ -46,6 +46,6 @@ _此为日常工作博客记录与备份，详细博客地址：[http:zhukejin.c
 **欢迎查漏补缺，纠正错误**
 
 - Author：PrimoChu
-- Company:上海点客
+- Company:虎扑
 - Email:<zhukejin@msn.com>
-- Blog:<http://zhukejin.com>
+- Blog:<http://blog.zhukejin.com>
