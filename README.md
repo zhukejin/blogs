@@ -46,6 +46,6 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 **欢迎查漏补缺，纠正错误**
 
 - Author：PrimoChu
-- Company:虎扑
+- Company: HUPU
 - Email:<zhukejin@msn.com>
 - Blog:<http://blog.zhukejin.com>
