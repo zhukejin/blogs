@@ -32,7 +32,8 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 5. [你或许不需要jquery](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/umightnotneedjquerymd.md)
 6. [Javascript事件冒泡和捕获优先级的实验与探讨](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Javascript-event.md)
 7. [使用 r.js 压缩Javascript代码](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/r.js.md)
-
+8. [Javascript 中this各种情况探讨](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Javascript-This.md)
+9. [30个实用的Javascript库](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/2013-30betterJsLibs.md)
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
 
