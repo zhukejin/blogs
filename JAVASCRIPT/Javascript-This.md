@@ -1,13 +1,7 @@
-Javascript中 This 的工作原理
+七种情况下 This 的指向问题
 --
-**声明 :**
->转载请注明本文地址来源，谢谢。
->
->email : zhukejin@zhukejin.com
 
-Javascript的面向对象一直很暧昧，除去继承，This也是一点。
-
-总归来说，this 是一个动态指针，它永远指向当前作用域对象，如果当前定义对象的作用域没有发生变化，那么this就会指向当前对象。
+this 是一个动态指针，它指向当前作用域对象，如果当前定义对象的作用域没有发生变化，那么this就会指向当前对象。
 This可以存在于任何位置，并不局限与对象、方法内，也可以是其他特殊的上下文环境。
 
 本文实验了下述七种情况：
@@ -18,7 +12,8 @@ This可以存在于任何位置，并不局限与对象、方法内，也可以�
 4. **call 和 apply 对 this的影响**
 5. **原型继承中的 This**
 6. **异步调用的 This**
-7. **被Evel() 方法解析的 This**
+7. **定时器中的 This**
+8. **被Evel() 方法解析的 This**
 
 
 ### 在函数中的This： 
@@ -167,6 +162,23 @@ IE上这种情况很可能导致事件绑定的句柄丢失，为了防止这种
 
 当然可以强制指向 o 
 
+#### 定时器
+
+异步调用的另一种形式就是使用定时器来调用函数，通过调用 window对象 的 setTimeout() 或者 setInterval() 方法来延期调用函数，例如：
+
+	var o = {};
+	o.f = function () {
+		if (this == o) console.log("this == o");
+		if (this == window) console.log("this == window");
+		if (this == button) console.log("this == button");
+	}
+
+	setTimeout(o.f, 1000);
+
+程序在IE浏览器下的运行结果同上，this 同时指向 window和 button对象，原理和attachEvent() 一样。
+
+在符合Dom 标准的浏览器中，this指向的是window对象，因为setTimeout() 方法是在全局作用域中被执行的，所以 this 指向window 对象。
+
 
 ### eval () 中的 this：
 
@@ -197,7 +209,4 @@ IE上这种情况很可能导致事件绑定的句柄丢失，为了防止这种
 	}
 
 
-如有不对，请指正：
-
-QQ: 1794220061
-Email ： zhukejin@msn.com
+如有不对，请指正。
