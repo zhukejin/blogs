@@ -35,6 +35,8 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 8. [Javascript 中this各种情况探讨](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Javascript-This.md)
 9. [30个实用的Javascript库](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/2013-30betterJsLibs.md)
 10. [Javascript 继承封包](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/Javascript-Extends.md)
+11. [HighChartError#19](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/HighChartError%2319.md)
+
 
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
