@@ -45,3 +45,10 @@
 	[1,2,3,4,5,6,7,8,9,10].map(function (v){
         $scope.selectObj["C"+v+"Tp"] = 'total';
     });
+
+### 8. JAVASCRIPT 获取对象长度
+
+    var a = {a:1, b:2},
+        b = Object.keys(a).length;
+
+*tip: 不可枚举的不会出来*
