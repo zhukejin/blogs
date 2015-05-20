@@ -1,0 +1,47 @@
+## 前端知识积累
+
+> 因会无定期修改，若需转载请保留本文地址， 为方便读者追本朔源。
+
+
+### 1.  javascript 中转换数字为 int 可以使用
+	
+	~~ "42" // 42
+	+ "42" //42
+
+### 2. css中， position：absolute， relative；元素会晚于正常文档流元素的渲染， 所以显示层级会比较高
+
+	a:hover {
+		position: relative;
+	}
+
+
+### 3. opacity < 1的元素会展示在最上层，所以这样很方便
+
+	.top {
+		opacity: .99;
+	}
+
+
+### 4. javascript 删除数组最好通过原型链 xx.length = 0; 而不是 delete 脏删除
+
+
+### 5. 字符串排序
+
+     '324'.split('').sort().join('');  // 234
+
+
+### 6. 判断是否为 ie9- 
+
+在 ie 678 中有个神奇的特性
+
+ 	window == document //true
+	document == window // false
+
+
+### 7. 我简直是太机智了
+
+如何快速的定义大量的变量：
+
+	[1,2,3,4,5,6,7,8,9,10].map(function (v){
+        $scope.selectObj["C"+v+"Tp"] = 'total';
+    });
