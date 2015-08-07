@@ -52,3 +52,18 @@
         b = Object.keys(a).length;
 
 *tip: 不可枚举的不会出来*
+
+
+### 9. 如何查找数组中第二大的数值？
+
+    var num = [1,2,3,2,1,8,33,45,1,3,4];
+
+    function findSecondMax(num) {
+        var max = Math.max.apply(null,num);
+        var arr = [];
+        arr=[].filter.call(num,function(i){
+        return i!=max;}
+        );
+        return Math.max.apply(null,arr);
+    }
+    console.log(findSecondMax(num));

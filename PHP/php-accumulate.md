@@ -101,3 +101,32 @@ php 5.3 + 的版本中提供了一个方法 use () ， 可以把外部变量作�
     }
 
 
+### 7. 使用 php5.3 + 的新特性实现多维数组扁平化
+    
+    $array = array( 1, 2, array( 3, 4, 5, array( 6, 7 ), 8, 9, ), 10, 11 );
+    $res = array();
+    array_walk_recursive($arr,function($v, $k) use (&$res){ $res[] = $v; });
+    print_r($res);exit;
+
+### 8. 不使用+ 号 ， 计算两个值的和
+
+    function AddWithoutArithmetic($num1, $num2) {
+        if(0 == $num2 )  return $num1;
+        $sum = $num1 ^ $num2;
+        $carry = ($num1 & $num2) << 1;
+        return AddWithoutArithmetic($sum, $carry);
+    }
+
+    echo AddWithoutArithmetic(3, 5);
+
+### 9. php 中多维数组中对汉字字典排序
+
+	$arr = array(
+	    array("你好"),
+	    array("呵呵"),
+	    array("不好"),
+	    array("啊啊")
+	);
+	array_multisort($arr, SORT_STRING, SORT_DESC );
+	
+	print_r($arr);
