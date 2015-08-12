@@ -67,3 +67,18 @@
         return Math.max.apply(null,arr);
     }
     console.log(findSecondMax(num));
+
+### 10. Javasc获取时间的N种方法：
+
+	new Date().getTime() //最常见的方法， 通过实例化对象调用
+
+	(new Date).getTime() //通过调用值获取， 等同于 ： (new Date().getTime()); Jquery 的 $.now() ， 是封装的这个方法
+
+	
+	其他的还有： 
+
+	Date.now()
+	
+	+new Date
+
+	new Date -0
