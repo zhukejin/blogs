@@ -41,6 +41,7 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 14. [Javascript小技巧积累](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/js-accumulate.md)
 15. [Angularjs option 默认问题](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/angularjs-option-space.md)
 15. [Javascript 方法扩展](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/js-function-expand.md)
+16. [Angularjs 隐藏方法整合](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/angularjs.md)
 
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
