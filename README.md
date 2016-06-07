@@ -44,7 +44,7 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 17. [Angularjs 隐藏方法整合](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/angularjs.md)
 18. [React & Es6 学习笔记第一章(基本组件的创建)](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/React%26Es6.md)
 19. [模拟PHP- Array_pad 方法](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/JavaScript_pad.md)
-20. [Vue配合Select2 实现的一个级联指令](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/.md)
+20. [Vue配合Select2 实现的一个级联指令](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/v-select.md)
 
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
