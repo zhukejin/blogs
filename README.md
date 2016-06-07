@@ -40,9 +40,11 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 13. [Javascript 获取iframe父级url](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/iframe.md)
 14. [Javascript小技巧积累](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/js-accumulate.md)
 15. [Angularjs option 默认问题](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/angularjs-option-space.md)
-15. [Javascript 方法扩展](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/js-function-expand.md)
-16. [Angularjs 隐藏方法整合](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/angularjs.md)
-16. [React & Es6 学习笔记第一章(基本组件的创建)](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/React%26Es6.md)
+16. [Javascript 方法扩展](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/js-function-expand.md)
+17. [Angularjs 隐藏方法整合](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/angularjs.md)
+18. [React & Es6 学习笔记第一章(基本组件的创建)](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/React%26Es6.md)
+19. [模拟PHP- Array_pad 方法](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/JavaScript_pad.md)
+20. [Vue配合Select2 实现的一个级联指令](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/.md)
 
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
