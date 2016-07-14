@@ -3,6 +3,7 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 
 >1. [PHP](#PHP)
 2. [JAVASCRIPT](#JAVASCRIPT)
+3. [CSS](#CSS)
 4. [MYSQL](#MYSQL)
 5. [Other](#OTHER)
 
@@ -46,6 +47,9 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 19. [模拟PHP- Array_pad 方法](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/JavaScript_pad.md)
 20. [Vue配合Select2 实现的一个级联指令](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/v-select.md)
 
+### <a name='CSS'>CSS手记</a>
+1. [模态框弹出、懒加载等导致底层DOM跳动问题解决方案](https://github.com/zhukejin1223/blogs/blob/master/CSS/%E8%A7%A3%E5%86%B3%E6%A8%A1%E6%80%81%E6%A1%86%E5%AF%BC%E8%87%B4%E5%BA%95%E5%B1%82%E8%B7%B3%E5%8A%A8%E9%97%AE%E9%A2%98.md)
+
 ### <a name="MYSQL">MYSQL手记</a>
 1. [MYSQL时间函数整理](https://github.com/zhukejin1223/blogs/blob/master/MYSQL/MysqlDateFunc.md)
 
@@ -60,5 +64,5 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 
 - Author：PrimoChu
 - Company: HUPU
-- Email:<zhukejin@zhukejin.com>
+- Email:<zhukejin@msn.com>
 - Blog:<http://blog.zhukejin.com>
