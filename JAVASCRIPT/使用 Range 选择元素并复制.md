@@ -72,13 +72,14 @@ JavaScript 选中内容复制的时候，使用 execCommand('selectAll') 是无�
             window.getSelection().addRange(range);
             document.execCommand('copy');
 
-            // 防止出现讨厌的黑漆漆的选中,再取消一次
+            // 防止出现文档选中状态，先取消一次。
             window.getSelection().removeAllRanges();
         }, 0);
         // range.detach();
         this.btnText = '已复制';
     }
     
+
     
     
 ### 兼容性
