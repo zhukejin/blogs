@@ -2,10 +2,10 @@
 _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhukejin.com](http:blog.zhukejin.com)_
      
 >1. [PHP](#PHP)
-2. [JAVASCRIPT](#JAVASCRIPT)
-3. [CSS](#CSS)
-4. [MYSQL](#MYSQL)
-5. [Other](#OTHER)
+>2. [JAVASCRIPT](#JAVASCRIPT)
+>3. [CSS](#CSS)
+>4. [MYSQL](#MYSQL)
+>5. [Other](#OTHER)
 
 ### <a name="PHP">PHP手记</a>
 1. [检测浏览器语言](https://github.com/zhukejin1223/blogs/blob/master/PHP/Detect-browser-language.md)
