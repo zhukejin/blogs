@@ -46,6 +46,7 @@ _此为日常工作博客记录与备份，详细博客地址：[http:blog.zhuke
 18. [React & Es6 学习笔记第一章(基本组件的创建)](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/React%26Es6.md)
 19. [模拟PHP- Array_pad 方法](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/JavaScript_pad.md)
 20. [Vue配合Select2 实现的一个级联指令](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/v-select.md)
+21. [通过 Range 选择并复制元素](https://github.com/zhukejin1223/blogs/blob/master/JAVASCRIPT/%E4%BD%BF%E7%94%A8%20Range%20%E9%80%89%E6%8B%A9%E5%85%83%E7%B4%A0%E5%B9%B6%E5%A4%8D%E5%88%B6.md)
   
 ### <a name='CSS'>CSS手记</a>
 1. [模态框弹出、懒加载等导致底层DOM跳动问题解决方案](https://github.com/zhukejin1223/blogs/blob/master/CSS/%E8%A7%A3%E5%86%B3%E6%A8%A1%E6%80%81%E6%A1%86%E5%AF%BC%E8%87%B4%E5%BA%95%E5%B1%82%E8%B7%B3%E5%8A%A8%E9%97%AE%E9%A2%98.md)
